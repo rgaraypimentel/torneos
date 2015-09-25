@@ -3,10 +3,10 @@
   <widgets xsi:type="model:Master" id="1" x="10" y="5" measuredWidth="932" measuredHeight="44">
     <screen xsi:type="model:WidgetGroup" href="assets/Foundation/Navigation.screen#Top%20Bar"/>
   </widgets>
-  <widgets xsi:type="model:Master" id="2" x="78" y="96" measuredWidth="215" measuredHeight="53">
+  <widgets xsi:type="model:Master" id="2" x="78" y="96" measuredWidth="289" measuredHeight="55">
     <screen xsi:type="model:WidgetGroup" href="assets/Foundation/Typography.screen#h1.%20Header"/>
     <overrides>
-      <widgets ref="2" text="Hello World"/>
+      <widgets ref="2" text="Hello World RGP"/>
     </overrides>
   </widgets>
   <widgets xsi:type="model:Master" id="3" x="78" y="174" measuredWidth="520" measuredHeight="81">
