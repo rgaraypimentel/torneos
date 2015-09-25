@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" x="56" y="24" width="857" height="593" text="Browser&#xA;http://portalTorneosVideoGames.com.pe" measuredWidth="857" measuredHeight="593">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Shape" id="2" x="96" y="104" width="761" height="44" measuredWidth="761" measuredHeight="44" layoutParams="anchor-left,anchor-right|anchor-top" background="#333333" border="false" textAlignment="Left" shapeType="rectangle">
+    <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:List" id="4" x="376" y="147" width="113" text="Organizador&#xA;Participante&#xA;Activos" measuredWidth="113" measuredHeight="64" background="#cccccc" alternative="#cccccc">
+    <font/>
+    <items x="0" y="2" width="113" height="20" text="Organizador"/>
+    <items x="0" y="22" width="113" height="20" text="Participante"/>
+    <items x="0" y="42" width="113" height="20" text="Activos"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="5" x="96" y="147" width="761" height="342" measuredWidth="761" measuredHeight="342"/>
+  <widgets xsi:type="model:Label" id="6" x="711" y="115" text="Usuario: " measuredWidth="59" measuredHeight="22" foreground="#eeeeee">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="7" x="769" y="115" text="rgaray@T2D" measuredWidth="73" measuredHeight="22" foreground="#ffffff">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="12" x="360" y="368" width="154" text="RECUPERAR CLAVE" measuredWidth="154" measuredHeight="24" background="#073763">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="14" x="136" y="176" text="Recuperar Clave" measuredWidth="104" measuredHeight="22">
+    <font bold="true" italic="false" underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:ButtonBar" id="18" x="126" y="104" height="44" text="Presentacion,Torneo, Lista Torneos ,Historial,Perfil" measuredWidth="377" measuredHeight="44" layoutParams="anchor-left|anchor-top" selection="4" background="#333333">
+    <font size="13px"/>
+    <items x="0" y="0" width="95" height="44" text="Presentacion"/>
+    <items x="95" y="0" width="62" height="44" text="Torneo"/>
+    <items x="157" y="0" width="102" height="44" text="Lista Torneos "/>
+    <items x="259" y="0" width="67" height="44" text="Historial"/>
+    <items x="326" y="0" width="51" height="44" text="Perfil"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="27" x="139" y="259" text="Correo electronico" measuredWidth="106" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="28" x="264" y="259" width="145" text="agareca@gmail.com" measuredWidth="145" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="29" x="139" y="216" text="Alias" measuredWidth="29" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="30" x="264" y="216" width="145" text="mon@19852" measuredWidth="145" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="36" x="144" y="307" width="641" text="Se enviara un correo electronico para que puedas recuperar la clave de tu usuario" measuredWidth="641" measuredHeight="22">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

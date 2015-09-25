@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="8" x="40" y="40" width="729" height="537" text="Browser&#xA;http://portalTorneosVideoGames.com.pe" measuredWidth="729" measuredHeight="537">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:SVGImage" id="15" x="120" y="118" width="561" height="155" text="iiiiiiiiicadasd" measuredWidth="150" measuredHeight="150" src="../resources/Foundation/_inline_list.svg"/>
+  <widgets xsi:type="model:Group" id="17" x="120" y="290" width="561" height="183" measuredWidth="561" measuredHeight="183">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="18" x="263" y="404" width="90" height="33" text="INGRESAR" measuredWidth="90" measuredHeight="33" background="#073763">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="19" x="263" y="330" text="USUARIO:" measuredWidth="61" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="20" x="263" y="363" text="CLAVE:" measuredWidth="46" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="21" x="352" y="330" width="129" text="USER@gmail.com" measuredWidth="129" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="22" x="352" y="363" width="129" text="********" measuredWidth="129" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:SVGImage" id="23" x="120" y="480" width="561" height="57" src="../resources/Foundation/_inline_list.svg"/>
+  <widgets xsi:type="model:Button" id="24" x="391" y="404" width="90" height="33" text="NUEVO" measuredWidth="90" measuredHeight="33" background="#073763">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="25" x="323" y="448" text="[[Recuperar Clave]]" measuredWidth="103" measuredHeight="22">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" x="56" y="24" width="857" height="593" text="Browser&#xA;http://portalTorneosVideoGames.com.pe" measuredWidth="857" measuredHeight="593">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Shape" id="2" x="96" y="104" width="761" height="44" measuredWidth="761" measuredHeight="44" layoutParams="anchor-left,anchor-right|anchor-top" background="#333333" border="false" textAlignment="Left" shapeType="rectangle">
+    <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:ButtonBar" id="3" x="126" y="104" height="44" text="Presentacion,Torneo, Lista Torneos ,Historial" measuredWidth="327" measuredHeight="44" layoutParams="anchor-left|anchor-top" selection="1" background="#333333">
+    <font size="13px"/>
+    <items x="0" y="0" width="95" height="44" text="Presentacion"/>
+    <items x="95" y="0" width="62" height="44" text="Torneo"/>
+    <items x="157" y="0" width="102" height="44" text="Lista Torneos "/>
+    <items x="259" y="0" width="68" height="44" text="Historial"/>
+  </widgets>
+  <widgets xsi:type="model:List" id="4" x="376" y="147" width="113" text="Organizador&#xA;Participante&#xA;Activos" measuredWidth="113" measuredHeight="64" background="#cccccc" alternative="#cccccc">
+    <font/>
+    <items x="0" y="2" width="113" height="20" text="Organizador"/>
+    <items x="0" y="22" width="113" height="20" text="Participante"/>
+    <items x="0" y="42" width="113" height="20" text="Activos"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="5" x="96" y="147" width="761" height="454" measuredWidth="761" measuredHeight="454"/>
+  <widgets xsi:type="model:Label" id="6" x="711" y="115" text="Usuario: " measuredWidth="59" measuredHeight="22" foreground="#eeeeee">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="7" x="769" y="115" text="rgaray@T2D" measuredWidth="73" measuredHeight="22" foreground="#ffffff">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="16" x="126" y="168" width="716" height="417" measuredWidth="716" measuredHeight="417"/>
+  <widgets xsi:type="model:Label" id="24" x="147" y="194" width="298" text="Condiciones Generales" measuredWidth="298" measuredHeight="22">
+    <font bold="true" underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="25" x="147" y="226" width="114" text="Nombre del torneo" measuredWidth="114" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="26" x="147" y="254" width="114" text="Lugar" measuredWidth="114" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="27" x="272" y="254" width="289" text="Centro comercial Arenales 123 Tda + Gamers" measuredWidth="289" measuredHeight="22" state="disabled">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="28" x="272" y="226" width="537" text="Torneo PES 2016 Sillas Rojas" measuredWidth="537" measuredHeight="22" state="disabled">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="29" x="147" y="289" width="126" text="Fecha de Inicio  " measuredWidth="126" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:DateField" id="30" x="272" y="289" width="121" text=" 28 /02  /2016  " measuredWidth="121" measuredHeight="22" state="disabled"/>
+  <widgets xsi:type="model:TextField" id="31" x="592" y="289" width="24" text="15" measuredWidth="24" measuredHeight="22" state="disabled">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="32" x="633" y="289" width="24" text="00" measuredWidth="24" measuredHeight="22" state="disabled">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="33" x="456" y="289" width="96" text="Hora de Inicio" measuredWidth="96" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="34" x="625" y="289" width="9" text=":" measuredWidth="9" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="35" x="272" y="323" width="81" text="10 mints." measuredWidth="81" measuredHeight="22" state="disabled">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="36" x="147" y="323" width="122" text="Duracion de Partidos" measuredWidth="122" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="37" x="145" y="359" width="121" text="Cuantos partipantes" measuredWidth="121" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="38" x="272" y="359" width="81" text="8" measuredWidth="81" measuredHeight="22" state="disabled">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="39" x="147" y="393" width="94" text="Sistema" measuredWidth="94" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="40" x="272" y="393" width="114" text="ELIMINATORIAS" measuredWidth="114" measuredHeight="22" state="disabled">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="41" x="272" y="461" width="81" text="Ver" measuredWidth="81" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="42" x="145" y="462" width="116" text="Reglas" measuredWidth="116" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="43" x="272" y="426" width="81" text="Ver" measuredWidth="81" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="44" x="145" y="427" width="96" text="Premios" measuredWidth="96" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="45" x="500" y="318" width="314" height="133" measuredWidth="314" measuredHeight="133"/>
+  <widgets xsi:type="model:Image" id="46" x="512" y="323" width="292" height="120" measuredWidth="292" measuredHeight="120" src="../../resources/031-CrearTorneo_CG_image.png"/>
+  <widgets xsi:type="model:Button" id="49" x="272" y="502" width="81" text="Ver" measuredWidth="81" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="50" x="145" y="503" width="116" text="Colaboradores" measuredWidth="116" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="51" x="364" y="543" width="309" height="32" text="INSCRIBIRSE" measuredWidth="309" measuredHeight="32" background="#073763">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="52" x="672" y="254" width="42" text="Pais" measuredWidth="42" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="53" x="728" y="254" width="81" text="Peru" measuredWidth="81" measuredHeight="22" state="disabled">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="54" x="728" y="484" text="Seleccionar" measuredWidth="81" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="55" x="498" y="485" width="116" text="Equipo :" measuredWidth="116" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="56" x="560" y="485" width="113" text="REAL MADRID" measuredWidth="113" measuredHeight="22" state="focused">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="57" x="678" y="477" width="42" height="39" measuredWidth="42" measuredHeight="39"/>
+  <widgets xsi:type="model:Image" id="58" x="686" y="480" width="26" height="32" measuredWidth="26" measuredHeight="32" src="../../resources/032-TorneosActivos_SeleccionarEquipos_image.png"/>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

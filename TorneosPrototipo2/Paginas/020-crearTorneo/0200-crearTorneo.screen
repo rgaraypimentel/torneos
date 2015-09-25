@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" x="56" y="24" width="857" height="593" text="Browser&#xA;http://portalTorneosVideoGames.com.pe" measuredWidth="857" measuredHeight="593">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Shape" id="2" x="96" y="104" width="761" height="44" measuredWidth="761" measuredHeight="44" layoutParams="anchor-left,anchor-right|anchor-top" background="#333333" border="false" textAlignment="Left" shapeType="rectangle">
+    <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:ButtonBar" id="3" x="126" y="104" height="44" text="Presentacion,Torneo, Lista Torneos ,Historial" measuredWidth="327" measuredHeight="44" layoutParams="anchor-left|anchor-top" selection="1" background="#333333">
+    <font size="13px"/>
+    <items x="0" y="0" width="95" height="44" text="Presentacion"/>
+    <items x="95" y="0" width="62" height="44" text="Torneo"/>
+    <items x="157" y="0" width="102" height="44" text="Lista Torneos "/>
+    <items x="259" y="0" width="68" height="44" text="Historial"/>
+  </widgets>
+  <widgets xsi:type="model:List" id="4" x="376" y="147" width="113" text="Organizador&#xA;Participante&#xA;Activos" measuredWidth="113" measuredHeight="64" background="#cccccc" alternative="#cccccc">
+    <font/>
+    <items x="0" y="2" width="113" height="20" text="Organizador"/>
+    <items x="0" y="22" width="113" height="20" text="Participante"/>
+    <items x="0" y="42" width="113" height="20" text="Activos"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="5" x="96" y="147" width="761" height="454" measuredWidth="761" measuredHeight="454"/>
+  <widgets xsi:type="model:Label" id="6" x="711" y="115" text="Usuario: " measuredWidth="59" measuredHeight="22" foreground="#eeeeee">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="7" x="769" y="115" text="rgaray@T2D" measuredWidth="73" measuredHeight="22" foreground="#ffffff">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="16" x="126" y="168" width="716" height="417" measuredWidth="716" measuredHeight="417"/>
+  <widgets xsi:type="model:Button" id="17" x="400" y="336" width="170" height="32" text="CREAR TORNEO" measuredWidth="170" measuredHeight="32" background="#073763">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="18" x="176" y="231" width="441" text="Aqui se escribira una introduccion corta sobre lo que tendria  " measuredWidth="441" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="19" x="176" y="263" width="425" text="que tenerse en cuenta cuando se crea un torneo de este" measuredWidth="425" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="20" x="176" y="295" width="425" text="video juego, ademas algunas condiciones generales." measuredWidth="425" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="21" x="176" y="472" height="87" text="Nombre,Fecha,Estado,Situacion&#xA;[+][Torneo +Gamers 2016 - Arenales 202 Final de Año] ,15/01/2016 16:00 ,POR EMPEZAR,[*Organizador]&#xA;Torneo Nacional PES2016 ,15/01/2016 16:00 ,ABIERTO,colaborador&#xA;Torneo Sillas Rojas 2016 - Arenales 202 Final de Año ,10/01/2016 17:00 ,EN PROCESO,colaborador&#xA;&#xA;" measuredWidth="600" measuredHeight="87" selection="6" horizontalLines="true" alternative="#eeeeee">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="22" x="176" y="432" width="425" text="Lista de Torneos en los que colaboras" measuredWidth="425" measuredHeight="22">
+    <font bold="true" underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="23" x="176" y="189" text="Crear Torneo" measuredWidth="85" measuredHeight="22">
+    <font bold="true" underline="true"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

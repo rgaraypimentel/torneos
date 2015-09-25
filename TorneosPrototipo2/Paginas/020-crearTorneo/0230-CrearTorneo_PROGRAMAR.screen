@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="51" x="56" y="24" width="857" height="593" text="Browser&#xA;http://portalTorneosVideoGames.com.pe" measuredWidth="857" measuredHeight="593">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Shape" id="52" x="96" y="104" width="761" height="44" measuredWidth="761" measuredHeight="44" layoutParams="anchor-left,anchor-right|anchor-top" background="#333333" textAlignment="Left" shapeType="rectangle">
+    <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:ButtonBar" id="53" x="126" y="104" height="44" text="Presentacion, Torneo, Lista Torneos ,Historial" measuredWidth="327" measuredHeight="44" layoutParams="anchor-left|anchor-top" selection="1" background="#333333">
+    <font size="13px"/>
+    <items x="0" y="0" width="95" height="44" text="Presentacion"/>
+    <items x="95" y="0" width="62" height="44" text="Torneo"/>
+    <items x="157" y="0" width="102" height="44" text="Lista Torneos "/>
+    <items x="259" y="0" width="68" height="44" text="Historial"/>
+  </widgets>
+  <widgets xsi:type="model:List" id="54" x="376" y="147" width="113" text="Organizador&#xA;Participante&#xA;Activos" measuredWidth="113" measuredHeight="64" background="#cccccc" alternative="#cccccc">
+    <font/>
+    <items x="0" y="2" width="113" height="20" text="Organizador"/>
+    <items x="0" y="22" width="113" height="20" text="Participante"/>
+    <items x="0" y="42" width="113" height="20" text="Activos"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="55" x="96" y="147" width="761" height="460" measuredWidth="761" measuredHeight="460"/>
+  <widgets xsi:type="model:Label" id="56" x="711" y="115" text="Usuario: " measuredWidth="59" measuredHeight="22" foreground="#eeeeee">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="57" x="769" y="115" text="rgaray@T2D" measuredWidth="73" measuredHeight="22" foreground="#ffffff">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="58" x="126" y="210" width="716" height="381" measuredWidth="716" measuredHeight="381"/>
+  <widgets xsi:type="model:Shape" id="59" x="136" y="167" width="131" height="55" text="Iniciar " measuredWidth="131" measuredHeight="55" shapeType="rectangle-rounded">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Shape" id="60" x="280" y="167" width="131" height="55" text="Inscribir" measuredWidth="131" measuredHeight="55" shapeType="rectangle-rounded">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Shape" id="61" x="567" y="167" width="131" height="55" text="EjecutarTorneo" measuredWidth="131" measuredHeight="55" shapeType="rectangle-rounded">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Shape" id="62" x="706" y="167" width="131" height="55" text="Finalizar " measuredWidth="131" measuredHeight="55" shapeType="rectangle-rounded">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Shape" id="98" x="424" y="167" width="131" height="55" text="Programar" measuredWidth="131" measuredHeight="55" background="#d0e0e3" shapeType="rectangle-rounded">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="99" x="147" y="280" height="265" text="N°,Participantes&#xA;01,[°rgp@SUN°]&#xA;02,[tauro_156]&#xA;03,[gemito156]&#xA;04,[asterix666]&#xA;05,[$suntzut$]&#xA;06,[gemito156]&#xA;07,[ggrr1#ss]&#xA;08,[aadd458]&#xA;09,[aadd4e8]&#xA;10,[aadd668]&#xA;11,[aadd45@@]&#xA;12,[aadd4dd]&#xA;13,[aadd458]&#xA;14,[aadd458]&#xA;" measuredWidth="105" measuredHeight="265" alternative="#eeeeee">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="100" x="452" y="241" width="121" text="Generar" measuredWidth="121" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="101" x="147" y="242" width="298" text="Generar cronograma de fase de eliminatorias" measuredWidth="298" measuredHeight="22">
+    <font bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="102" x="288" y="280" width="537" height="265" measuredWidth="537" measuredHeight="265"/>
+  <widgets xsi:type="model:Image" id="103" x="304" y="284" width="505" height="257" measuredWidth="505" measuredHeight="257" src="../../assets/025-CrearTorneo_GenerarFixture_image.png"/>
+  <widgets xsi:type="model:Button" id="104" x="500" y="549" width="309" height="32" text="GUARDAR FIXTURE" measuredWidth="309" measuredHeight="32" background="#073763">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

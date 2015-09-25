@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="6" x="56" y="24" width="857" height="593" text="Browser&#xA;http://portalTorneosVideoGames.com.pe" measuredWidth="857" measuredHeight="593">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Shape" id="7" x="96" y="104" width="761" height="44" measuredWidth="761" measuredHeight="44" layoutParams="anchor-left,anchor-right|anchor-top" background="#333333" border="false" textAlignment="Left" shapeType="rectangle">
+    <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:ButtonBar" id="8" x="126" y="104" height="44" text="Presentacion,Torneo, Lista Torneos ,Historial" measuredWidth="327" measuredHeight="44" layoutParams="anchor-left|anchor-top" selection="3" background="#333333">
+    <font size="13px"/>
+    <items x="0" y="0" width="95" height="44" text="Presentacion"/>
+    <items x="95" y="0" width="62" height="44" text="Torneo"/>
+    <items x="157" y="0" width="102" height="44" text="Lista Torneos "/>
+    <items x="259" y="0" width="68" height="44" text="Historial"/>
+  </widgets>
+  <widgets xsi:type="model:List" id="9" x="376" y="147" width="113" text="Organizador&#xA;Participante&#xA;Activos" measuredWidth="113" measuredHeight="64" background="#cccccc" alternative="#cccccc">
+    <font/>
+    <items x="0" y="2" width="113" height="20" text="Organizador"/>
+    <items x="0" y="22" width="113" height="20" text="Participante"/>
+    <items x="0" y="42" width="113" height="20" text="Activos"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="10" x="96" y="147" width="761" height="454" measuredWidth="761" measuredHeight="454"/>
+  <widgets xsi:type="model:Label" id="11" x="711" y="115" text="Usuario: " measuredWidth="59" measuredHeight="22" foreground="#eeeeee">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="12" x="769" y="115" text="rgaray@T2D" measuredWidth="73" measuredHeight="22" foreground="#ffffff">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="13" x="126" y="168" width="716" height="417" measuredWidth="716" measuredHeight="417"/>
+  <widgets xsi:type="model:Label" id="14" x="176" y="189" text="Lista de torneos en los que participaste" measuredWidth="249" measuredHeight="22">
+    <font bold="true" underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="15" x="186" y="240" text="Desde" measuredWidth="40" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="16" x="186" y="306" width="602" text="Nombre,Fecha,Merito&#xA;[Torne +Gamers 2016 - Arenales 202 Final de Año] ,15/01/2016 , Fase 2&#xA;[Torne Nacional PES2016] ,15/01/2016 ,Fase Grupos&#xA;[Torne Sillas Rojas 2016 - Arenales 202 Final de Año] ,10/01/2016 ,4°&#xA;[Torne PES2016 - Arenales 202 Final de Año] ,28/03/2016 ,Campeon&#xA;[Torne Arenales - Arenales 202 Final de Año] ,20/03/2016 , 2°&#xA;" measuredWidth="602" measuredHeight="124" alternative="#eeeeee">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="17" x="412" y="240" text="Hasta" measuredWidth="36" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:DateField" id="18" x="232" y="240" width="121" text="01/01/2000" measuredWidth="121" measuredHeight="22"/>
+  <widgets xsi:type="model:DateField" id="19" x="452" y="240" width="125" text="01/01/2016" measuredWidth="125" measuredHeight="22"/>
+  <widgets xsi:type="model:Window" id="23" x="181" y="155" width="645" height="377" text="Detalles Torneo" measuredWidth="645" measuredHeight="377" background="#cccccc"/>
+  <widgets xsi:type="model:Label" id="24" x="201" y="184" text="Torneo: [Torneo PES 2016 Sillas Rojas]" measuredWidth="211" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="25" x="216" y="218" width="548" height="257" measuredWidth="548" measuredHeight="257" src="../../assets/025-CrearTorneo_GenerarFixture_image.png"/>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

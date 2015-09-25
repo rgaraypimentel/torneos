@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" x="56" y="24" width="857" height="593" text="Browser&#xA;http://portalTorneosVideoGames.com.pe" measuredWidth="857" measuredHeight="593">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Shape" id="4" x="96" y="104" width="761" height="44" measuredWidth="761" measuredHeight="44" layoutParams="anchor-left,anchor-right|anchor-top" background="#333333" border="false" textAlignment="Left" shapeType="rectangle">
+    <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:ButtonBar" id="5" x="136" y="104" height="44" text="Presentacion,Torneo, Lista Torneos ,Historial,Perfil" measuredWidth="377" measuredHeight="44" layoutParams="anchor-left|anchor-top" selection="0" background="#333333">
+    <font size="13px"/>
+    <items x="0" y="0" width="95" height="44" text="Presentacion"/>
+    <items x="95" y="0" width="62" height="44" text="Torneo"/>
+    <items x="157" y="0" width="102" height="44" text="Lista Torneos "/>
+    <items x="259" y="0" width="67" height="44" text="Historial"/>
+    <items x="326" y="0" width="51" height="44" text="Perfil"/>
+  </widgets>
+  <widgets xsi:type="model:List" id="7" x="376" y="147" width="113" text="Organizador&#xA;Participante&#xA;Activos" measuredWidth="113" measuredHeight="64" background="#cccccc" alternative="#cccccc">
+    <font/>
+    <items x="0" y="2" width="113" height="20" text="Organizador"/>
+    <items x="0" y="22" width="113" height="20" text="Participante"/>
+    <items x="0" y="42" width="113" height="20" text="Activos"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="8" x="96" y="147" width="761" height="342" measuredWidth="761" measuredHeight="342"/>
+  <widgets xsi:type="model:Label" id="10" x="711" y="115" text="Usuario: " measuredWidth="59" measuredHeight="22" foreground="#eeeeee">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="12" x="769" y="115" text="rgaray@T2D" measuredWidth="73" measuredHeight="22" foreground="#ffffff">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="14" x="139" y="192" width="374" height="145" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." measuredWidth="374" measuredHeight="145">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="15" x="139" y="432" width="382" height="33" text="Contactenos en aaabb.ccc@gmail.com" measuredWidth="382" measuredHeight="33">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="16" x="664" y="176" width="163" height="149" measuredWidth="163" measuredHeight="149" src="../resources/011-MenuPrincipal_image.png"/>
+  <widgets xsi:type="model:Image" id="17" x="488" y="294" width="200" height="185" measuredWidth="200" measuredHeight="185" src="../resources/011-MenuPrincipal_image2.png"/>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
